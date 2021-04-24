@@ -1,3 +1,7 @@
-import React, {ReactElement} from "react";
-import Hands from "../Images/Hands-Home Page";
-
+export const Home = () => {
+    return(
+        <div>
+            home page
+        </div>
+    )
+}
