@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
-import Home from "./pages/home";
-import Questionnaire from "./pages/questionnaire"
+import Home from "./Pages/home";
+import Questionnaire from "./Pages/questionnaire"
 
 function App() {
   return (
