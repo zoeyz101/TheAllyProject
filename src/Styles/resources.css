@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+.resources-image{
+    position:absolute;
+    top: 25%;
+    left:20%;
+    z-index:-1;
+}
+
+#links{
+    text-decoration:none;
+    color:black;
+
+}
+
+.link-container{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.container {
+    background-color: #FFE174;
+    overflow:hidden;
+}
+
+h2 {
+    color:black;
+    /* Donate */
+width:50%;
+
+font-family:"Open Sans";
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+
+mix-blend-mode: normal;
+
+}
+
+.mega-links{
+    position:absolute;
+
+    margin-top:11%;
+    margin-left:50%;
+    width:1000px;
+}

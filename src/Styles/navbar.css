@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
+
+title1 {
+    font-family:"Averia Serif Libre";
+    font-style: normal;
+    font-weight: 400;
+
+    color: #AE1010;
+}
+
+.navbar-text-a {
+
+    font-family: "Averia Serif Libre";
+    font-style: normal;
+    font-weight:700;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+
+}
