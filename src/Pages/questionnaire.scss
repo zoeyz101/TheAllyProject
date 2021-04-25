@@ -1,0 +1,55 @@
+.fullPage {
+  margin-top: 200px;
+}
+.questionnaire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+  h1 {
+    font-family: Open Sans;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+}
+
+button {
+  background: #ffe174;
+  border-radius: 30px;
+  width: 10rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  border: 3px solid;
+  border-color: #db9f30;
+  margin-bottom: 20px;
+}
+
+fieldset.likertScale {
+  font-family: Open Sans;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.likertResponse {
+  min-width: 12em !important;
+}
+
+.likertIndicator {
+  width: 2em !important;
+  height: 2em !important;
+  border-radius: 1em !important;
+}
+
+.likertText {
+  padding-top: 2em !important;
+  font-size: 1.25rem !important;
+}

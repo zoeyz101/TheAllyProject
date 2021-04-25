@@ -1,10 +1,4 @@
 export const questions = [
-    {question: "",
-    isYesNo: true,
-    },
-    {question: "",
-    isYesNo: false,
-    },
     {question: "Have you ever felt uncomfortable around someone due to their skin color?",
     isYesNo: false,
     },
