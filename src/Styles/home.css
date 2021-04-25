@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+
+body {
+    background-color: #FFE174;
+    overflow:hidden;
+}
+
+h1 {
+    font-family: "Averia Serif Libre";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+
+    mix-blend-mode: normal;
+
+    position: absolute;
+    width: 690px;
+    height: 85px;
+    left: 124px;
+    top: 305px;
+    line-height: 85px;
+}
+
+.white-text{
+    color:white;
+}
+
+.red-text{
+    color: #AE1010;
+}
+
+p{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+
+
+    color: #000000;
+}
+
+#explain-text-1 {
+    /* Since the beginning of the pandemic, over 3800 anti-Asian racist incidents have been reported. */
+
+    position: absolute;
+    width: 325px;
+    height: 120px;
+    left: 132px;
+    top: 421px;
+
+}
+
+#explain-text-2{
+    position: absolute;
+    width: 527px;
+    height: 147px;
+    left: 132px;
+    top: 555px;
+}
+
+.black-image {
+    height:150%;
+    position:absolute;
+    left:325px;
+    bottom: -150px;
+    z-index:-1;
+}
+
+.hands-image {
+    /* Hands-Home Page */
+    position:absolute;
+    right:50px;
+    bottom:-5px;
+    z-index:1;
+
+}
+
+button {
+    /* Rectangle 2 */
+
+position: absolute;
+left: 125px;
+right: 0px;
+top:760px;
+/* top: calc(50% - 41px/2 - 5px); */
+
+background: #F21E1E;
+border-radius: 30px;
+
+}
+
+button:hover{
+    background: #AE1010;
+}
+
+.button-text{
+    /* button text */
+top: calc(50% - 27px/2 - 5px);
+
+font-family:"Open Sans";
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.4em;
+text-transform: uppercase;
+padding-left:20px;
+padding-right:20px;
+
+color: #FFFFFF;
+
+
+}
