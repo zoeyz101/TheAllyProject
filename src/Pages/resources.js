@@ -5,7 +5,7 @@ import resources from "../Images/Resources.png";
 
 export const Resources = () => {
     return(
-        <body>
+        <div class="container">
             <div class = "mega-links">
             <h2>Donations
                 <div class="link-container">
@@ -37,7 +37,7 @@ export const Resources = () => {
             
             </div>
             <img src={resources} alt="resources" className={Resources.resources} class="resources-image"/>
-        </body>
+        </div>
         
     )
 }

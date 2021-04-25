@@ -5,7 +5,7 @@ import {questions} from '../Constants/questions'
 import Likert from 'react-likert-scale';
 
 export const Questionnaire = () => {
-    const [index,updateIndex] = useState(10)
+    const [index,updateIndex] = useState(0)
     const [percentage, updatePercentage] = useState(0)
     const curr = questions[index]? questions[index]: null
     
@@ -41,6 +41,9 @@ export const Questionnaire = () => {
                 </>:
                 <>
                     <h1> You are {!percentage?0:(percentage)>100?0:percentage<0?100:100-percentage}% an Ally</h1>
+                    <a href="../resources">
+                        <p>Checkout Our Resources!</p>
+                    </a>
                 </>
         }
            

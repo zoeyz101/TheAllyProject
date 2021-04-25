@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
 
+body{
+    overflow:hidden;
+}
 
-body {
+.container {
     background-color: #FFE174;
     overflow:hidden;
 }
 
-h1 {
+.h1-text {
     font-family: "Averia Serif Libre";
     font-style: normal;
     font-weight: 400;
@@ -31,7 +34,7 @@ h1 {
     color: #AE1010;
 }
 
-p{
+.p-text{
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 500;
@@ -50,7 +53,7 @@ p{
     width: 325px;
     height: 120px;
     left: 132px;
-    top: 421px;
+    top: 445px;
 
 }
 
@@ -59,7 +62,7 @@ p{
     width: 527px;
     height: 147px;
     left: 132px;
-    top: 555px;
+    top: 585px;
 }
 
 .black-image {
@@ -79,13 +82,14 @@ p{
 
 }
 
-button {
+.button1{
     /* Rectangle 2 */
 
 position: absolute;
 left: 125px;
 right: 0px;
 top:760px;
+width:600px;
 /* top: calc(50% - 41px/2 - 5px); */
 
 background: #F21E1E;
@@ -93,7 +97,7 @@ border-radius: 30px;
 
 }
 
-button:hover{
+.button1:hover{
     background: #AE1010;
 }
 
